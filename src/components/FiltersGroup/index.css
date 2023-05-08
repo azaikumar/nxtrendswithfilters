@@ -1,0 +1,27 @@
+.filters-group-container {
+  list-style-type: none;
+
+  /* margin-top: 48px; */
+}
+
+/* @media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+} */
+
+.category-name-item {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.category-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
